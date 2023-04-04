@@ -23,8 +23,9 @@
 
 2번째 시도.. 
 1. 리포지토리 fork 한 뒤 리포지토리 링크 복사, git bash 실행
-2. git clone <리포지토리 링크> --> fork한 리포지토리를 컴퓨터에 받음, git init 코드로 local 지정
-3. cd <리포지토리 명> --> 로컬 디렉토리로 이동
+2. git clone <리포지토리 링크> --> fork한 리포지토리를 컴퓨터에 받음
+3. git init 코드로 local 지정
+   cd <리포지토리 명> --> 로컬 디렉토리로 이동
 4. git branch chaeyoungwon --> local에 브랜치 생성
 5. git checkout chaeyoungwon --> 생성한 브랜치로 이동
 6. mkdir chaeyoungwon --> 폴더 생성
@@ -37,3 +38,13 @@
     - Type:Subject) Feat(자기소개라는 기능을 구현했기 때문): "자기 소개"
     - body) 자기소개 내용 입력
 13. git push origin chaeyoungwon --> 원격 저장소로 푸시
+
+
+3번쨰 시도..
+1. 리포지토리 fork 한 뒤 git bash 실행
+2. cd 리포지토리명을 통해 Week3 파일까지 접근
+3. 접근한 곳에서 git clone 시도
+4. git hub 사이트에서 new branch 생성
+5. chaeyoungwon branch에서 리드미 파일 생성
+6. 안에 자기소개 작성, 메시지 컨벤션 작성
+7. pull request 보내기
